@@ -14,8 +14,8 @@ type MultibuySpecial struct {
 
 func NewMultibuySpecial(threshold int, price int) MultibuySpecial {
 	return MultibuySpecial{
-		threshold: threshold,
-		price:     price,
+		threshold,
+		price,
 	}
 }
 
