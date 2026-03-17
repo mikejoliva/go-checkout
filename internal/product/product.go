@@ -1,5 +1,7 @@
 package product
 
+type SpecialBuyType string
+
 type ISpecial interface {
 	Calculate(quantity int) (price int, remainder int, err error)
 }

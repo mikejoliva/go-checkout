@@ -5,6 +5,8 @@ import (
 	"math"
 )
 
+const MultiBuy SpecialBuyType = "multibuy"
+
 type MultibuySpecial struct {
 	threshold int
 	price     int

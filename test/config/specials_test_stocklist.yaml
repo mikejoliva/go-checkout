@@ -1,0 +1,16 @@
+products:
+  - name: A
+    price: 50
+    special:
+      type: multibuy
+      params:
+        threshold: 3
+        price: 130
+  - name: B
+    price: 50
+  - name: A
+    price: 50
+    special:
+      type: dummy
+      params:
+        dummy: dummy
