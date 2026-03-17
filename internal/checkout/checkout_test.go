@@ -7,7 +7,7 @@ import (
 	"github.com/mikejoliva/go-checkout/internal/checkout"
 )
 
-func TestSuite_No_Special(t *testing.T) {
+func TestSuite_Checkout(t *testing.T) {
 	t.Run("Checkout creation returns error when stocklist is missing", func(t *testing.T) {
 		_, err := checkout.NewCheckout("missing")
 		if err == nil {
